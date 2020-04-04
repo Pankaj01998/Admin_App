@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "549347742066",
+    "firebase_url": "https://bhojaji-maharaj-gas-agency.firebaseio.com",
+    "project_id": "bhojaji-maharaj-gas-agency",
+    "storage_bucket": "bhojaji-maharaj-gas-agency.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549347742066:android:a0ecbbc90143cd89844deb",
+        "android_client_info": {
+          "package_name": "com.example.android.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549347742066-rrflddmf71lminbjj0nf767if7db0vkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.admin",
+            "certificate_hash": "74816291b69f3eb126a4b468390b2800e2a42dc7"
+          }
+        },
+        {
+          "client_id": "549347742066-4qlv3r0g9a90ojk58cfn5258osnib8ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVYSsexl0VKxb2BvQh7bZl4wB0SE8CGo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549347742066-4qlv3r0g9a90ojk58cfn5258osnib8ks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549347742066:android:ccff83487dc6336e844deb",
+        "android_client_info": {
+          "package_name": "com.example.android.bhojajimaharajgasagency"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549347742066-6i8kvmcjlv43l75ic8dfjc26e7kpp0ri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.bhojajimaharajgasagency",
+            "certificate_hash": "74816291b69f3eb126a4b468390b2800e2a42dc7"
+          }
+        },
+        {
+          "client_id": "549347742066-4qlv3r0g9a90ojk58cfn5258osnib8ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVYSsexl0VKxb2BvQh7bZl4wB0SE8CGo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549347742066-4qlv3r0g9a90ojk58cfn5258osnib8ks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

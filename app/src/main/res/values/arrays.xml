@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_gender_options">
+        <item>@string/d1</item>
+        <item>@string/d2</item>
+        <item>@string/d3</item>
+        <item>@string/d4</item>
+        <item>@string/d5</item>
+        <item>@string/d6</item>
+        <item>@string/d7</item>
+    </string-array>
+    <string name="gender_MONDAY" />
+</resources>

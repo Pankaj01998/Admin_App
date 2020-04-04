@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/button_reject_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/reject"
+        android:textSize="25sp"
+        android:layout_marginBottom="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/button_confirm_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/confirm"
+        android:textSize="25sp"
+        android:layout_marginBottom="15dp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/container_expected_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/delivery_day"
+            style="@style/CategoryStyle" />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinner_day"
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:paddingRight="16dp"
+                android:spinnerMode="dropdown"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/button_delivered_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/delivered"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        />
+
+
+
+</LinearLayout>
